@@ -1,0 +1,23 @@
+[
+  {
+    "id": "V001",
+    "name": "Vela Lavanda",
+    "scent": "Lavanda",
+    "units": 12,
+    "price": 1200.00
+  },
+  {
+    "id": "V002",
+    "name": "Vela Vainilla",
+    "scent": "Vainilla",
+    "units": 8,
+    "price": 1450.50
+  },
+  {
+    "id": "V003",
+    "name": "Vela Cítrica",
+    "scent": "Cítrico",
+    "units": 20,
+    "price": 980.00
+  }
+]
