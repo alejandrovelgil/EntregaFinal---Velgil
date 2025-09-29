@@ -1,0 +1,28 @@
+Proyecto Final - Gestor de Stock de Velas
+
+Este proyecto es un simulador interactivo de un gestor de stock de productos de velas.  
+Permite agregar, editar, eliminar y buscar productos.
+
+## Funcionalidades
+Agregar nuevos productos con ID, nombre, aroma, unidades y precio.
+ Editar productos existentes.
+ Eliminar productos con confirmación.
+ Buscar productos por ID, nombre o aroma.
+Almacenamiento de datos en LocalStorage para mantener la información entre sesiones.
+Carga inicial de productos desde un archivo JSON (`DATA/data.json`) si LocalStorage está vacío.
+
+
+# Instrucciones de uso
+
+1- Abrir `index.html` en un navegador.
+2- Completar el formulario para agregar productos.
+3- Utilizar los botones de editar o eliminar según necesites.
+4- Filtrar productos usando la barra de búsqueda.
+5- Todos los cambios se guardan automáticamente en LocalStorage.
+
+
+# Notas
+ El proyecto utiliza SweetAlert2 para las notificaciones.
+ El JSON inicial se encuentra en DATA/data.json y se carga automáticamente la primera vez que se abre el proyecto.
+ No requiere servidor, funciona directamente en el navegador.
+
